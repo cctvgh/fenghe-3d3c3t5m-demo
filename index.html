@@ -101,7 +101,7 @@ td:first-child, th:first-child { text-align: left; }
 </div>
 
 <div class="banner">
-  <b>静态演示版</b> · 数据采集于 2026-10-01 · 预置 26 只行业龙头分析结果，输入名称或代码搜索，点击卡片查看详情。完整版需本地运行后端服务。
+  <b>静态演示版</b> · 数据采集于 2026-10-01 · 预置 <span id="stockCount">-</span> 只行业龙头分析结果，输入名称或代码搜索，点击卡片查看详情。完整版需本地运行后端服务。
 </div>
 
 <div class="wrap">
@@ -6861,6 +6861,3095 @@ const DEMO_DATA = {
                                               "若以现价291.11买入，跌破267.82止损观察(跌幅8%)"
                                           ]
                             }
+               },
+    "00883":  {
+                  "code":  "00883",
+                  "market":  "HK",
+                  "name":  "中国海洋石油",
+                  "signal":  "持有偏多",
+                  "advice":  "评分中性偏多，持有为主，回调可关注",
+                  "score_total":  5.4,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  5.2,
+                                 "3d":  4.6,
+                                 "5m":  6.4,
+                                 "3t":  4.7,
+                                 "d1":  6.6,
+                                 "d2":  2.5,
+                                 "d3":  4.2,
+                                 "m1":  4.6,
+                                 "m2":  4.6,
+                                 "m3":  7.0,
+                                 "m4":  8.4,
+                                 "m5":  7.3,
+                                 "t1":  4.0,
+                                 "t2":  4.0,
+                                 "t3":  5.7
+                             },
+                  "hist":  {
+                               "pe_ttm":  7.15,
+                               "pb":  1.16,
+                               "pe_pct_3y":  69.7,
+                               "pb_pct_3y":  29.3,
+                               "mom_1m":  -7.14,
+                               "mom_1y":  -16.67,
+                               "name":  "中国海洋石油"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  15.749488162921,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -11.4937362255,
+                                         "rev_yoy":  -5.2998054725,
+                                         "gross_margin":  77.922002912963,
+                                         "net_margin":  30.6734970619,
+                                         "debt_ratio":  26.7054386701,
+                                         "eps":  2.568527628726,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  19.508193707244,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  11.3797307882,
+                                         "rev_yoy":  0.9354094607,
+                                         "gross_margin":  79.01052541462,
+                                         "net_margin":  32.8133248991,
+                                         "debt_ratio":  29.0495616223,
+                                         "eps":  2.902085704658,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  19.599008678808,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -12.6019760056,
+                                         "rev_yoy":  -1.3312649504,
+                                         "gross_margin":  73.895907193556,
+                                         "net_margin":  29.785722344,
+                                         "debt_ratio":  33.5841956726,
+                                         "eps":  2.603561596952,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  26.287132661902,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  101.5073947668,
+                                         "rev_yoy":  71.5607998017,
+                                         "gross_margin":  86.409539824266,
+                                         "net_margin":  33.5544608389,
+                                         "debt_ratio":  35.590631529,
+                                         "eps":  2.978970779842,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  15.376877829044,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  181.7759256291,
+                                         "rev_yoy":  58.4011276163,
+                                         "gross_margin":  74.944232480466,
+                                         "net_margin":  28.5671912267,
+                                         "debt_ratio":  38.7242568675,
+                                         "eps":  1.575005752292,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  5.659630681657,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -59.1186829388,
+                                         "rev_yoy":  -33.373642254,
+                                         "gross_margin":  92.488350539351,
+                                         "net_margin":  16.0620961306,
+                                         "debt_ratio":  39.8384804686,
+                                         "eps":  0.558956819599,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  14.064258536299,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  15.8898908401,
+                                         "rev_yoy":  2.4100724164,
+                                         "gross_margin":  87.547116411305,
+                                         "net_margin":  26.1772134529,
+                                         "debt_ratio":  40.8462897783,
+                                         "eps":  1.367267152285,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  13.21594301051,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  113.5105563885,
+                                         "rev_yoy":  21.7677987016,
+                                         "gross_margin":  85.214330089045,
+                                         "net_margin":  23.2143565251,
+                                         "debt_ratio":  38.5123876844,
+                                         "eps":  1.180089634197,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  6.473963266024,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  3773.9403453689,
+                                         "rev_yoy":  27.2373540856,
+                                         "gross_margin":  85.169268737593,
+                                         "net_margin":  13.2394441762,
+                                         "debt_ratio":  38.4375724014,
+                                         "eps":  0.552707863329,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  10.8,
+                  "growth_signals":  [
+
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值偏高(70%分位)，周期可能接近顶部",
+                                     "growth":  "营收增速持续恶化，基本面处于下行周期",
+                                     "margin":  "毛利率显著下降，盈利周期向下",
+                                     "verdict":  "基本面下行周期，观望为主"
+                                 },
+                  "change_qual":  {
+                                      "type":  "温和变化",
+                                      "detail":  "各项指标变化温和，未触发明确的变化类型信号",
+                                      "sub_types":  [
+
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  15.7,
+                                 "quality":  "硬核ROE",
+                                 "margin":  30.7,
+                                 "leverage":  1.36,
+                                 "turnover":  0.38,
+                                 "verdict":  "ROE 15.7%由定价权(净利率30.7%)驱动，负债率仅26.7%，属于高质量内生增长"
+                             },
+                  "thesis":  {
+                                 "status":  "证伪中",
+                                 "detail":  "近期季报出现预警信号，投资逻辑可能被证伪：净利增速从11.4%恶化至-11.5%；营收增速放缓(0.9%→-5.3%)",
+                                 "trend":  "falsifying",
+                                 "confirm":  0,
+                                 "falsify":  4
+                             },
+                  "leash":  {
+                                "deviation":  "超前",
+                                "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                "pe_percentile":  69.7,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  10.8,
+                               "pe_percentile":  69.7,
+                               "rules":  [
+                                             "仓位上限10.8%，可一次性建仓",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "600938":  {
+                   "code":  "600938",
+                   "market":  "A",
+                   "name":  "中国海油",
+                   "signal":  "持有偏多",
+                   "advice":  "评分中性偏多，持有为主，回调可关注",
+                   "score_total":  6.2,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  6.3,
+                                  "3d":  5.7,
+                                  "5m":  6.8,
+                                  "3t":  5.3,
+                                  "d1":  4.5,
+                                  "d2":  8.4,
+                                  "d3":  3.7,
+                                  "m1":  6.4,
+                                  "m2":  6.1,
+                                  "m3":  7.5,
+                                  "m4":  8.3,
+                                  "m5":  5.9,
+                                  "t1":  4.0,
+                                  "t2":  7.0,
+                                  "t3":  4.6
+                              },
+                   "hist":  {
+                                "price":  33.42,
+                                "change_pct":  0.18,
+                                "date":  "2026-09-30",
+                                "ma20":  33.4,
+                                "ma60":  32.39,
+                                "high_52w":  43.41,
+                                "low_52w":  25.59,
+                                "off_high_pct":  -23.01,
+                                "mom_1m":  -3.72,
+                                "mom_1y":  26.11,
+                                "pe_ttm":  11.48,
+                                "pb":  1.86,
+                                "pe_pct_3y":  77.6,
+                                "pb_pct_3y":  66.0,
+                                "mcap":  1588451062145.28,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  10.21,
+                                          "net_profit":  85818000000.0,
+                                          "revenue":  242660000000.0,
+                                          "np_yoy":  23.42,
+                                          "rev_yoy":  16.88,
+                                          "gross_margin":  53.46,
+                                          "net_margin":  35.39,
+                                          "debt_ratio":  28.6,
+                                          "eps":  1.81,
+                                          "bvps":  18.01,
+                                          "op_margin":  35.39
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  4.77,
+                                          "net_profit":  39144000000.0,
+                                          "revenue":  116079000000.0,
+                                          "np_yoy":  7.06,
+                                          "rev_yoy":  8.63,
+                                          "gross_margin":  51.17,
+                                          "net_margin":  33.76,
+                                          "debt_ratio":  27.09,
+                                          "eps":  0.82,
+                                          "bvps":  17.61,
+                                          "op_margin":  33.76
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  15.64,
+                                          "net_profit":  122082000000.0,
+                                          "revenue":  398220000000.0,
+                                          "np_yoy":  -11.49,
+                                          "rev_yoy":  -5.3,
+                                          "gross_margin":  51.47,
+                                          "net_margin":  30.67,
+                                          "debt_ratio":  26.71,
+                                          "eps":  2.57,
+                                          "bvps":  16.89,
+                                          "op_margin":  30.67
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  13.01,
+                                          "net_profit":  101971000000.0,
+                                          "revenue":  312503000000.0,
+                                          "np_yoy":  -12.59,
+                                          "rev_yoy":  -4.15,
+                                          "gross_margin":  52.24,
+                                          "net_margin":  32.66,
+                                          "debt_ratio":  30.09,
+                                          "eps":  2.14,
+                                          "bvps":  16.53,
+                                          "op_margin":  32.66
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  8.9,
+                                          "net_profit":  69533000000.0,
+                                          "revenue":  207608000000.0,
+                                          "np_yoy":  -12.79,
+                                          "rev_yoy":  -8.45,
+                                          "gross_margin":  53.47,
+                                          "net_margin":  33.52,
+                                          "debt_ratio":  29.54,
+                                          "eps":  1.46,
+                                          "bvps":  16.55,
+                                          "op_margin":  33.52
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  4.78,
+                                          "net_profit":  36563000000.0,
+                                          "revenue":  106854000000.0,
+                                          "np_yoy":  -7.95,
+                                          "rev_yoy":  -4.14,
+                                          "gross_margin":  54.65,
+                                          "net_margin":  34.25,
+                                          "debt_ratio":  28.74,
+                                          "eps":  0.77,
+                                          "bvps":  16.49,
+                                          "op_margin":  34.25
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  19.36,
+                                          "net_profit":  137936000000.0,
+                                          "revenue":  420506000000.00006,
+                                          "np_yoy":  11.38,
+                                          "rev_yoy":  0.94,
+                                          "gross_margin":  53.63,
+                                          "net_margin":  32.81,
+                                          "debt_ratio":  29.05,
+                                          "eps":  2.9,
+                                          "bvps":  15.73,
+                                          "op_margin":  32.81
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  16.43,
+                                          "net_profit":  116658999999.99998,
+                                          "revenue":  326024000000.0,
+                                          "np_yoy":  19.47,
+                                          "rev_yoy":  6.26,
+                                          "gross_margin":  54.45,
+                                          "net_margin":  35.79,
+                                          "debt_ratio":  33.24,
+                                          "eps":  2.45,
+                                          "bvps":  15.12,
+                                          "op_margin":  35.79
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  11.27,
+                                          "net_profit":  79731000000.0,
+                                          "revenue":  226769999999.99997,
+                                          "np_yoy":  25.05,
+                                          "rev_yoy":  18.07,
+                                          "gross_margin":  53.71,
+                                          "net_margin":  35.17,
+                                          "debt_ratio":  32.96,
+                                          "eps":  1.68,
+                                          "bvps":  15.12,
+                                          "op_margin":  35.17
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  5.79,
+                                          "net_profit":  39719000000.0,
+                                          "revenue":  111468000000.0,
+                                          "np_yoy":  23.69,
+                                          "rev_yoy":  14.08,
+                                          "gross_margin":  53.43,
+                                          "net_margin":  35.64,
+                                          "debt_ratio":  32.89,
+                                          "eps":  0.84,
+                                          "bvps":  14.85,
+                                          "op_margin":  35.64
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  19.55,
+                                          "net_profit":  123843000000.0,
+                                          "revenue":  416609000000.0,
+                                          "np_yoy":  -12.6,
+                                          "rev_yoy":  -1.33,
+                                          "gross_margin":  49.88,
+                                          "net_margin":  29.79,
+                                          "debt_ratio":  33.58,
+                                          "eps":  2.6,
+                                          "bvps":  14.01,
+                                          "op_margin":  29.79
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  15.45,
+                                          "net_profit":  97645000000.0,
+                                          "revenue":  306817000000.0,
+                                          "np_yoy":  -10.23,
+                                          "rev_yoy":  -1.39,
+                                          "gross_margin":  49.6,
+                                          "net_margin":  31.83,
+                                          "debt_ratio":  36.8,
+                                          "eps":  2.05,
+                                          "bvps":  13.53,
+                                          "op_margin":  31.83
+                                      }
+                                  ],
+                   "structural":  true,
+                   "max_position":  6.2,
+                   "growth_signals":  [
+                                          "营收/净利双正增长"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值偏高(78%分位)，周期可能接近顶部",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率小幅下降，盈利周期平稳",
+                                      "verdict":  "周期高位，需警惕回调风险"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新市场 / 新份额 / 新周期 / 逆周期抢份额",
+                                       "detail":  "营收增速从-5.3%加速至16.9%，市场空间可能在扩张；营收增长16.9%且毛利率稳定(±3%)，可能在逆周期抢占市场份额；营收增速从-5.3%转正至16.9%，周期拐点信号；行业增速放缓(-5.3%)但公司逆势增长(16.9%)，毛利率小幅让利(54.5%→53.5%)，疑似以价换量抢夺份额",
+                                       "sub_types":  [
+                                                         "新市场",
+                                                         "新份额",
+                                                         "新周期",
+                                                         "逆周期抢份额"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  10.2,
+                                  "quality":  "优良ROE",
+                                  "margin":  35.4,
+                                  "leverage":  1.4,
+                                  "turnover":  0.21,
+                                  "verdict":  "ROE 10.2%以盈利能力为主驱动(净利率35.4%)，杠杆可控(负债率28.6%)"
+                              },
+                   "thesis":  {
+                                  "status":  "证明中",
+                                  "detail":  "近期季报持续验证投资逻辑：净利增速从7.1%改善至23.4%；营收增速加速(8.6%→16.9%)；毛利率环比上升",
+                                  "trend":  "confirming",
+                                  "confirm":  5,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "超前",
+                                 "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                 "pe_percentile":  77.6,
+                                 "short_dev_pct":  3.2,
+                                 "off_high_pct":  -23.01
+                             },
+                   "risk":  {
+                                "stop_loss":  30.75,
+                                "max_position":  6.2,
+                                "pe_percentile":  77.6,
+                                "rules":  [
+                                              "仓位上限仅6.2%，评分或估值约束较大，轻仓试探",
+                                              "PE分位78%偏高，仓位需减半，回调至60%以下方可加仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价33.42买入，跌破30.75止损观察(跌幅8%)"
+                                          ]
+                            }
+               },
+    "01030":  {
+                  "code":  "01030",
+                  "market":  "HK",
+                  "name":  "新城发展",
+                  "signal":  "卖出",
+                  "advice":  "评分偏低，建议减仓或回避",
+                  "score_total":  2.9,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  4.9,
+                                 "3d":  2.0,
+                                 "5m":  2.6,
+                                 "3t":  3.8,
+                                 "d1":  1.5,
+                                 "d2":  0.0,
+                                 "d3":  5.8,
+                                 "m1":  2.5,
+                                 "m2":  2.3,
+                                 "m3":  3.2,
+                                 "m4":  2.6,
+                                 "m5":  2.2,
+                                 "t1":  6.0,
+                                 "t2":  3.3,
+                                 "t3":  2.8
+                             },
+                  "hist":  {
+                               "pe_ttm":  29.62,
+                               "pb":  0.19,
+                               "pe_pct_3y":  45.9,
+                               "pb_pct_3y":  1.9,
+                               "mom_1m":  2.1,
+                               "mom_1y":  -60.62,
+                               "name":  "新城发展"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  0.846560035871,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -19.9311231967,
+                                         "rev_yoy":  -40.4483095385,
+                                         "gross_margin":  23.338636903889,
+                                         "net_margin":  0.605601851,
+                                         "debt_ratio":  69.4089008329,
+                                         "eps":  0.055675402055,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  1.065454349611,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -44.1243904214,
+                                         "rev_yoy":  -25.3106617559,
+                                         "gross_margin":  16.79366851918,
+                                         "net_margin":  0.7644565764,
+                                         "debt_ratio":  71.924051213,
+                                         "eps":  0.069534386241,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  1.940502312994,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  213.2812917523,
+                                         "rev_yoy":  2.5080523419,
+                                         "gross_margin":  13.533826599633,
+                                         "net_margin":  0.6567460379,
+                                         "debt_ratio":  75.9978552624,
+                                         "eps":  0.124444971188,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  0.645871537508,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -96.7327984556,
+                                         "rev_yoy":  -31.2596011309,
+                                         "gross_margin":  13.676610466238,
+                                         "net_margin":  0.6372919041,
+                                         "debt_ratio":  79.9310507447,
+                                         "eps":  0.039723077778,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  22.047703838769,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -15.5981968211,
+                                         "rev_yoy":  16.0271061234,
+                                         "gross_margin":  16.726536080669,
+                                         "net_margin":  7.880857147,
+                                         "debt_ratio":  81.9630196799,
+                                         "eps":  1.320468077662,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  33.502570753002,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  30.2854305561,
+                                         "rev_yoy":  68.2403409658,
+                                         "gross_margin":  21.618218002707,
+                                         "net_margin":  11.0310179425,
+                                         "debt_ratio":  85.0373265844,
+                                         "eps":  1.639009178744,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  35.39382158882,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  15.5489332649,
+                                         "rev_yoy":  58.5425346874,
+                                         "gross_margin":  30.333989252282,
+                                         "net_margin":  14.5147012283,
+                                         "debt_ratio":  87.6525906107,
+                                         "eps":  1.324337684353,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  42.344806080037,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  78.2026242502,
+                                         "rev_yoy":  34.2003207423,
+                                         "gross_margin":  34.788354976028,
+                                         "net_margin":  21.9922365412,
+                                         "debt_ratio":  86.4271838096,
+                                         "eps":  1.144574911122,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  34.465737187442,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  174.1421132076,
+                                         "rev_yoy":  44.588339781,
+                                         "gross_margin":  33.270499424845,
+                                         "net_margin":  14.7319413206,
+                                         "debt_ratio":  86.9943193696,
+                                         "eps":  0.670554612937,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  5.8,
+                  "growth_signals":  [
+
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值中性(46%分位)，周期处于中段",
+                                     "growth":  "营收增速由正转负，基本面可能进入下行周期",
+                                     "margin":  "毛利率显著下降，盈利周期向下",
+                                     "verdict":  "基本面下行周期，观望为主"
+                                 },
+                  "change_qual":  {
+                                      "type":  "基本面恶化",
+                                      "detail":  "营收增速-40.4%，基本面可能恶化，需警惕",
+                                      "sub_types":  [
+
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  0.8,
+                                 "quality":  "低效ROE",
+                                 "margin":  0.6,
+                                 "leverage":  3.27,
+                                 "turnover":  0.43,
+                                 "verdict":  "ROE仅0.8%，创造价值能力弱，净利率0.6%偏低"
+                             },
+                  "thesis":  {
+                                 "status":  "待观察",
+                                 "detail":  "近期信号矛盾，需更多季报确认：营收增速放缓(-25.3%→-40.4%)；毛利率环比上升",
+                                 "trend":  "neutral",
+                                 "confirm":  1,
+                                 "falsify":  1
+                             },
+                  "leash":  {
+                                "deviation":  "同步",
+                                "interp":  "狗(价格)与人(价值)基本同步，估值合理",
+                                "pe_percentile":  45.9,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  5.8,
+                               "pe_percentile":  45.9,
+                               "rules":  [
+                                             "仓位上限仅5.8%，评分或估值约束较大，轻仓试探",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "01801":  {
+                  "code":  "01801",
+                  "market":  "HK",
+                  "name":  "信达生物",
+                  "signal":  "持有偏多",
+                  "advice":  "评分中性偏多，持有为主，回调可关注",
+                  "score_total":  6.2,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  6.6,
+                                 "3d":  7.5,
+                                 "5m":  5.6,
+                                 "3t":  5.1,
+                                 "d1":  6.0,
+                                 "d2":  9.7,
+                                 "d3":  6.8,
+                                 "m1":  7.5,
+                                 "m2":  7.6,
+                                 "m3":  3.9,
+                                 "m4":  4.4,
+                                 "m5":  4.6,
+                                 "t1":  4.0,
+                                 "t2":  7.5,
+                                 "t3":  3.6
+                             },
+                  "hist":  {
+                               "pe_ttm":  120.57,
+                               "pb":  7.16,
+                               "pe_pct_3y":  30.5,
+                               "pb_pct_3y":  25.2,
+                               "mom_1m":  -0.16,
+                               "mom_1y":  6.42,
+                               "name":  "信达生物"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  5.010566616243,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  959.7235578193,
+                                         "rev_yoy":  38.4173002269,
+                                         "gross_margin":  86.535169243654,
+                                         "net_margin":  6.2382668037,
+                                         "debt_ratio":  48.1730576165,
+                                         "eps":  0.469015331809,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  -0.737998487833,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  90.7938706875,
+                                         "rev_yoy":  51.8173014484,
+                                         "gross_margin":  83.971259263536,
+                                         "net_margin":  -1.0043740703,
+                                         "debt_ratio":  39.27708801,
+                                         "eps":  -0.057767098904,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  -8.839399540708,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  52.8322328119,
+                                         "rev_yoy":  36.2061548861,
+                                         "gross_margin":  81.691054080924,
+                                         "net_margin":  -16.5630261985,
+                                         "debt_ratio":  39.2671626422,
+                                         "eps":  -0.633797886593,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  -20.695481451254,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  20.1368389614,
+                                         "rev_yoy":  6.7135642567,
+                                         "gross_margin":  79.567331960899,
+                                         "net_margin":  -47.8289782678,
+                                         "debt_ratio":  38.9957157505,
+                                         "eps":  -1.420268562477,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  -32.841711953642,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -214.3015821983,
+                                         "rev_yoy":  11.0803864594,
+                                         "gross_margin":  86.579007707515,
+                                         "net_margin":  -73.4953670362,
+                                         "debt_ratio":  36.4037212428,
+                                         "eps":  -2.146251559316,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  -14.752191228349,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  41.9505799587,
+                                         "rev_yoy":  266.9429369227,
+                                         "gross_margin":  89.912090033376,
+                                         "net_margin":  -25.97471421,
+                                         "debt_ratio":  25.8151840524,
+                                         "eps":  -0.711746566904,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  -38.432296580823,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  70.1992136522,
+                                         "rev_yoy":  10953.3396644508,
+                                         "gross_margin":  88.078757070237,
+                                         "net_margin":  -164.1917853989,
+                                         "debt_ratio":  34.2215348282,
+                                         "eps":  -1.362269507496,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  -512.596397831843,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -926.3751115917,
+                                         "rev_yoy":  -48.8779803647,
+                                         "gross_margin":  null,
+                                         "net_margin":  -61970.8979634906,
+                                         "debt_ratio":  31.3805944694,
+                                         "eps":  -5.003015292847,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  33.808671769971,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -11.5258903142,
+                                         "rev_yoy":  null,
+                                         "gross_margin":  null,
+                                         "net_margin":  -3862.6065379221,
+                                         "debt_ratio":  166.0148721154,
+                                         "eps":  -4.5928728445,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  true,
+                  "max_position":  12.4,
+                  "growth_signals":  [
+                                         "营收/净利双正增长"
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值偏低(30%分位)，周期处于底部至上行初期",
+                                     "growth":  "营收增速加速上行，基本面周期向上",
+                                     "margin":  "毛利率小幅下降，盈利周期平稳",
+                                     "verdict":  "周期位置中性，需结合更多信号判断"
+                                 },
+                  "change_qual":  {
+                                      "type":  "新产品 / 新份额",
+                                      "detail":  "净利增速(959.7%)显著高于营收(38.4%)，产品结构升级；营收增长38.4%且毛利率稳定(±3%)，可能在逆周期抢占市场份额",
+                                      "sub_types":  [
+                                                        "新产品",
+                                                        "新份额"
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  5.0,
+                                 "quality":  "中等ROE",
+                                 "margin":  6.2,
+                                 "leverage":  1.93,
+                                 "turnover":  0.42,
+                                 "verdict":  "ROE 5.0%，净利率6.2%，负债率48.2%，质量一般"
+                             },
+                  "thesis":  {
+                                 "status":  "证明中",
+                                 "detail":  "近期季报持续验证投资逻辑：净利增速从90.8%改善至959.7%；毛利率环比上升",
+                                 "trend":  "confirming",
+                                 "confirm":  4,
+                                 "falsify":  0
+                             },
+                  "leash":  {
+                                "deviation":  "滞后",
+                                "interp":  "狗(价格)落后于人(价值)，估值偏低，安全边际较充足",
+                                "pe_percentile":  30.5,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  12.4,
+                               "pe_percentile":  30.5,
+                               "rules":  [
+                                             "仓位上限12.4%，可一次性建仓",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "01898":  {
+                  "code":  "01898",
+                  "market":  "HK",
+                  "name":  "中煤能源",
+                  "signal":  "持有",
+                  "advice":  "评分中性，建议观望，等待更清晰信号",
+                  "score_total":  3.8,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  4.6,
+                                 "3d":  2.7,
+                                 "5m":  4.3,
+                                 "3t":  4.0,
+                                 "d1":  2.5,
+                                 "d2":  1.7,
+                                 "d3":  4.3,
+                                 "m1":  3.2,
+                                 "m2":  3.5,
+                                 "m3":  4.6,
+                                 "m4":  5.2,
+                                 "m5":  4.8,
+                                 "t1":  4.0,
+                                 "t2":  3.3,
+                                 "t3":  4.5
+                             },
+                  "hist":  {
+                               "pe_ttm":  7.76,
+                               "pb":  0.72,
+                               "pe_pct_3y":  67.4,
+                               "pb_pct_3y":  3.0,
+                               "mom_1m":  -10.5,
+                               "mom_1y":  -10.08,
+                               "name":  "中煤能源"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  9.288403204583,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -19.989288556,
+                                         "rev_yoy":  -21.8269156302,
+                                         "gross_margin":  20.149138406423,
+                                         "net_margin":  12.0723400167,
+                                         "debt_ratio":  45.7942529511,
+                                         "eps":  1.093405237213,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  12.284588929361,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -10.0458302826,
+                                         "rev_yoy":  -1.8500806293,
+                                         "gross_margin":  20.022073112477,
+                                         "net_margin":  12.5262846238,
+                                         "debt_ratio":  46.3298901613,
+                                         "eps":  1.369367895711,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  14.70590671841,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  2.2576210778,
+                                         "rev_yoy":  -13.9449457344,
+                                         "gross_margin":  23.034107837535,
+                                         "net_margin":  14.6358728631,
+                                         "debt_ratio":  47.7242513903,
+                                         "eps":  1.522295075384,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  16.122317297719,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  29.970390735,
+                                         "rev_yoy":  -8.0272298316,
+                                         "gross_margin":  39.396203388679,
+                                         "net_margin":  12.2782267926,
+                                         "debt_ratio":  51.4807869155,
+                                         "eps":  1.487289359801,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  13.665957065216,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  174.8576205019,
+                                         "rev_yoy":  63.9611428624,
+                                         "gross_margin":  16.405491982942,
+                                         "net_margin":  9.0084277452,
+                                         "debt_ratio":  55.7575067091,
+                                         "eps":  1.109833967125,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  5.412771435216,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -13.688751928,
+                                         "rev_yoy":  8.9895422192,
+                                         "gross_margin":  14.51826098317,
+                                         "net_margin":  5.90222406,
+                                         "debt_ratio":  56.0805758874,
+                                         "eps":  0.40356451013,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  6.558881631457,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  40.648203374,
+                                         "rev_yoy":  24.1536669012,
+                                         "gross_margin":  16.239822698908,
+                                         "net_margin":  7.3626213577,
+                                         "debt_ratio":  56.978239091,
+                                         "eps":  0.467405183542,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  4.951634804063,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  33.2942805664,
+                                         "rev_yoy":  27.7595330094,
+                                         "gross_margin":  17.531259294574,
+                                         "net_margin":  7.1756349761,
+                                         "debt_ratio":  58.2205583616,
+                                         "eps":  0.338521075963,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  3.986496545275,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  103.353752869,
+                                         "rev_yoy":  33.7252509552,
+                                         "gross_margin":  19.394953347026,
+                                         "net_margin":  6.9924580914,
+                                         "debt_ratio":  57.3742548074,
+                                         "eps":  0.263215823097,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  7.6,
+                  "growth_signals":  [
+                                         "毛利率改善(结构向好)"
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值偏高(67%分位)，周期可能接近顶部",
+                                     "growth":  "营收增速持续恶化，基本面处于下行周期",
+                                     "margin":  "毛利率显著上升，盈利周期向上",
+                                     "verdict":  "周期位置中性，需结合更多信号判断"
+                                 },
+                  "change_qual":  {
+                                      "type":  "基本面恶化",
+                                      "detail":  "营收增速-21.8%，基本面可能恶化，需警惕",
+                                      "sub_types":  [
+
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  9.3,
+                                 "quality":  "中等ROE",
+                                 "margin":  12.1,
+                                 "leverage":  1.84,
+                                 "turnover":  0.42,
+                                 "verdict":  "ROE 9.3%，净利率12.1%，负债率45.8%，质量一般"
+                             },
+                  "thesis":  {
+                                 "status":  "证伪中",
+                                 "detail":  "近期季报出现预警信号，投资逻辑可能被证伪：净利增速从-10.0%恶化至-20.0%；营收增速放缓(-1.9%→-21.8%)；毛利率环比上升",
+                                 "trend":  "falsifying",
+                                 "confirm":  1,
+                                 "falsify":  4
+                             },
+                  "leash":  {
+                                "deviation":  "超前",
+                                "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                "pe_percentile":  67.4,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  7.6,
+                               "pe_percentile":  67.4,
+                               "rules":  [
+                                             "仓位上限仅7.6%，评分或估值约束较大，轻仓试探",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "09926":  {
+                  "code":  "09926",
+                  "market":  "HK",
+                  "name":  "康方生物",
+                  "signal":  "持有",
+                  "advice":  "评分中性，建议观望，等待更清晰信号",
+                  "score_total":  3.7,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  3.8,
+                                 "3d":  2.5,
+                                 "5m":  4.7,
+                                 "3t":  3.2,
+                                 "d1":  0.0,
+                                 "d2":  4.0,
+                                 "d3":  4.4,
+                                 "m1":  7.5,
+                                 "m2":  7.9,
+                                 "m3":  2.0,
+                                 "m4":  2.5,
+                                 "m5":  3.4,
+                                 "t1":  6.0,
+                                 "t2":  2.5,
+                                 "t3":  2.0
+                             },
+                  "hist":  {
+                               "pe_ttm":  18.03,
+                               "pb":  10.25,
+                               "pe_pct_3y":  67.2,
+                               "pb_pct_3y":  33.2,
+                               "mom_1m":  6.18,
+                               "mom_1y":  1.86,
+                               "name":  "康方生物"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  -14.033989862593,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -116.325082845,
+                                         "rev_yoy":  43.8962138361,
+                                         "gross_margin":  78.6569271417,
+                                         "net_margin":  -37.326255,
+                                         "debt_ratio":  44.0893062941,
+                                         "eps":  -1.208308359655,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  -8.943193862975,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -125.3668096435,
+                                         "rev_yoy":  -53.0750048661,
+                                         "gross_margin":  86.391260786537,
+                                         "net_margin":  -23.5925711789,
+                                         "debt_ratio":  47.0521949688,
+                                         "eps":  -0.573227751566,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  55.357789596731,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  273.5974111451,
+                                         "rev_yoy":  440.3474696057,
+                                         "gross_margin":  97.056107999266,
+                                         "net_margin":  42.9130011071,
+                                         "debt_ratio":  50.7816936769,
+                                         "eps":  2.411607745441,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  -40.291615938319,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -8.6944953779,
+                                         "rev_yoy":  271.2586315407,
+                                         "gross_margin":  88.764242123258,
+                                         "net_margin":  -169.7852101579,
+                                         "debt_ratio":  53.6383168109,
+                                         "eps":  -1.389195685312,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  -33.858279621305,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  8.6757498188,
+                                         "rev_yoy":  null,
+                                         "gross_margin":  86.145656972158,
+                                         "net_margin":  -557.6157003182,
+                                         "debt_ratio":  31.7434452491,
+                                         "eps":  -1.315615395807,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  -74.047155992102,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -250.9541245013,
+                                         "rev_yoy":  null,
+                                         "gross_margin":  null,
+                                         "net_margin":  null,
+                                         "debt_ratio":  10.5215824306,
+                                         "eps":  -1.495508885367,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  -154.249039352624,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -135.6777951893,
+                                         "rev_yoy":  2408.1033262562,
+                                         "gross_margin":  null,
+                                         "net_margin":  -488.7963994977,
+                                         "debt_ratio":  87.106224435,
+                                         "eps":  -0.688152886235,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  -34.821088845688,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -3649.8550724638,
+                                         "rev_yoy":  -92.9564827277,
+                                         "gross_margin":  null,
+                                         "net_margin":  -5461.9249823071,
+                                         "debt_ratio":  25.1064110551,
+                                         "eps":  null,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  -1.008919432666,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  null,
+                                         "rev_yoy":  null,
+                                         "gross_margin":  98.262798464683,
+                                         "net_margin":  -24.7544987787,
+                                         "debt_ratio":  21.9217802379,
+                                         "eps":  null,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  7.4,
+                  "growth_signals":  [
+
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值偏高(67%分位)，周期可能接近顶部",
+                                     "growth":  "营收增速放缓但仍正增长，基本面可能处于上行后段",
+                                     "margin":  "毛利率显著下降，盈利周期向下",
+                                     "verdict":  "周期位置中性，需结合更多信号判断"
+                                 },
+                  "change_qual":  {
+                                      "type":  "温和变化",
+                                      "detail":  "各项指标变化温和，未触发明确的变化类型信号",
+                                      "sub_types":  [
+
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  -14.0,
+                                 "quality":  "低效ROE",
+                                 "margin":  -37.3,
+                                 "leverage":  1.79,
+                                 "turnover":  null,
+                                 "verdict":  "ROE仅-14.0%，创造价值能力弱，净利率-37.3%偏低"
+                             },
+                  "thesis":  {
+                                 "status":  "证伪中",
+                                 "detail":  "近期季报出现预警信号，投资逻辑可能被证伪：营收增速加速(-53.1%→43.9%)；毛利率环比下降(86.4%→78.7%)",
+                                 "trend":  "falsifying",
+                                 "confirm":  1,
+                                 "falsify":  2
+                             },
+                  "leash":  {
+                                "deviation":  "超前",
+                                "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                "pe_percentile":  67.2,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  7.4,
+                               "pe_percentile":  67.2,
+                               "rules":  [
+                                             "仓位上限仅7.4%，评分或估值约束较大，轻仓试探",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "02319":  {
+                  "code":  "02319",
+                  "market":  "HK",
+                  "name":  "蒙牛乳业",
+                  "signal":  "持有",
+                  "advice":  "评分中性，建议观望，等待更清晰信号",
+                  "score_total":  4.3,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  5.4,
+                                 "3d":  3.9,
+                                 "5m":  3.9,
+                                 "3t":  5.0,
+                                 "d1":  0.5,
+                                 "d2":  7.3,
+                                 "d3":  4.7,
+                                 "m1":  4.4,
+                                 "m2":  4.5,
+                                 "m3":  3.4,
+                                 "m4":  3.7,
+                                 "m5":  3.7,
+                                 "t1":  4.0,
+                                 "t2":  7.5,
+                                 "t3":  3.4
+                             },
+                  "hist":  {
+                               "pe_ttm":  32.05,
+                               "pb":  1.48,
+                               "pe_pct_3y":  62.2,
+                               "pb_pct_3y":  66.3,
+                               "mom_1m":  -1.99,
+                               "mom_1y":  -94.26,
+                               "name":  "蒙牛乳业"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  3.765420045051,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  1378.7047757566,
+                                         "rev_yoy":  -7.2510249646,
+                                         "gross_margin":  39.891136651513,
+                                         "net_margin":  1.9745481254,
+                                         "debt_ratio":  51.1468249862,
+                                         "eps":  0.398398772545,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  0.243372768803,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -97.8269345173,
+                                         "rev_yoy":  -10.0880747728,
+                                         "gross_margin":  39.572065895539,
+                                         "net_margin":  0.2532907499,
+                                         "debt_ratio":  54.8177349599,
+                                         "eps":  0.026666040585,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  11.393704121652,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -9.3112880852,
+                                         "rev_yoy":  6.5131252122,
+                                         "gross_margin":  37.151281400039,
+                                         "net_margin":  4.9551559138,
+                                         "debt_ratio":  56.0391142676,
+                                         "eps":  1.222068495318,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  13.78750367699,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  5.5205045749,
+                                         "rev_yoy":  5.0507970283,
+                                         "gross_margin":  35.304686443802,
+                                         "net_margin":  5.599544209,
+                                         "debt_ratio":  57.5159694535,
+                                         "eps":  1.340760874285,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  14.398081400661,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  42.5666459766,
+                                         "rev_yoy":  15.9224775946,
+                                         "gross_margin":  36.747642355656,
+                                         "net_margin":  5.6314669116,
+                                         "debt_ratio":  57.187709885,
+                                         "eps":  1.271264663495,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  11.350070673835,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -14.1371795499,
+                                         "rev_yoy":  -3.7897222032,
+                                         "gross_margin":  37.65284242577,
+                                         "net_margin":  4.6052478256,
+                                         "debt_ratio":  53.5255066239,
+                                         "eps":  0.892843746524,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  15.108891679637,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  34.9128007282,
+                                         "rev_yoy":  14.5741049641,
+                                         "gross_margin":  37.553673386423,
+                                         "net_margin":  5.4358127642,
+                                         "debt_ratio":  57.5395481936,
+                                         "eps":  1.043309087307,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  12.727913090166,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  48.5971309268,
+                                         "rev_yoy":  14.6643716858,
+                                         "gross_margin":  37.379998157649,
+                                         "net_margin":  4.6446176763,
+                                         "debt_ratio":  54.1595901257,
+                                         "eps":  0.774759721996,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  9.426363016329,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  372.6253569503,
+                                         "rev_yoy":  11.8563803843,
+                                         "gross_margin":  35.213159295402,
+                                         "net_margin":  3.3757077601,
+                                         "debt_ratio":  53.3751037669,
+                                         "eps":  0.521428748509,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  8.6,
+                  "growth_signals":  [
+                                         "毛利率改善(结构向好)"
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值偏高(62%分位)，周期可能接近顶部",
+                                     "growth":  "营收增速由正转负，基本面可能进入下行周期",
+                                     "margin":  "毛利率显著上升，盈利周期向上",
+                                     "verdict":  "周期位置中性，需结合更多信号判断"
+                                 },
+                  "change_qual":  {
+                                      "type":  "新产品 / 新周期",
+                                      "detail":  "净利增速(1378.7%)远超营收增速(-7.3%)，且毛利率上升，疑似新产品放量驱动；净利增速从-9.3%转正至1378.7%，盈利周期拐点",
+                                      "sub_types":  [
+                                                        "新产品",
+                                                        "新周期"
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  3.8,
+                                 "quality":  "低效ROE",
+                                 "margin":  2.0,
+                                 "leverage":  2.05,
+                                 "turnover":  0.93,
+                                 "verdict":  "ROE仅3.8%，创造价值能力弱，净利率2.0%偏低"
+                             },
+                  "thesis":  {
+                                 "status":  "证明中",
+                                 "detail":  "近期季报持续验证投资逻辑：净利增速从-97.8%改善至1378.7%；毛利率环比上升",
+                                 "trend":  "confirming",
+                                 "confirm":  4,
+                                 "falsify":  0
+                             },
+                  "leash":  {
+                                "deviation":  "超前",
+                                "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                "pe_percentile":  62.2,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  8.6,
+                               "pe_percentile":  62.2,
+                               "rules":  [
+                                             "仓位上限8.6%，可一次性建仓",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "000933":  {
+                   "code":  "000933",
+                   "market":  "A",
+                   "name":  "神火股份",
+                   "signal":  "买入",
+                   "advice":  "综合评分较高，可分批建仓，仓位不超过建议上限",
+                   "score_total":  7.3,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  7.2,
+                                  "3d":  8.5,
+                                  "5m":  6.8,
+                                  "3t":  6.1,
+                                  "d1":  9.0,
+                                  "d2":  10.0,
+                                  "d3":  5.8,
+                                  "m1":  6.8,
+                                  "m2":  6.4,
+                                  "m3":  6.2,
+                                  "m4":  6.9,
+                                  "m5":  7.6,
+                                  "t1":  4.0,
+                                  "t2":  7.5,
+                                  "t3":  6.3
+                              },
+                   "hist":  {
+                                "price":  26.22,
+                                "change_pct":  0.46,
+                                "date":  "2026-09-30",
+                                "ma20":  26.84,
+                                "ma60":  26.02,
+                                "high_52w":  38.04,
+                                "low_52w":  19.36,
+                                "off_high_pct":  -31.07,
+                                "mom_1m":  -4.59,
+                                "mom_1y":  35.43,
+                                "pe_ttm":  8.57,
+                                "pb":  2.13,
+                                "pe_pct_3y":  45.6,
+                                "pb_pct_3y":  58.9,
+                                "mcap":  58968895341.78,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  18.41,
+                                          "net_profit":  4781000000.0,
+                                          "revenue":  24791000000.0,
+                                          "np_yoy":  151.06,
+                                          "rev_yoy":  21.35,
+                                          "gross_margin":  36.17,
+                                          "net_margin":  24.52,
+                                          "debt_ratio":  42.32,
+                                          "eps":  2.16,
+                                          "bvps":  12.31,
+                                          "op_margin":  24.52
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  8.9,
+                                          "net_profit":  2290000000.0,
+                                          "revenue":  12409000000.0,
+                                          "np_yoy":  223.28,
+                                          "rev_yoy":  28.83,
+                                          "gross_margin":  33.48,
+                                          "net_margin":  23.17,
+                                          "debt_ratio":  40.88,
+                                          "eps":  1.035,
+                                          "bvps":  11.96,
+                                          "op_margin":  23.17
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  17.49,
+                                          "net_profit":  4004999999.9999995,
+                                          "revenue":  41241000000.0,
+                                          "np_yoy":  -7.0,
+                                          "rev_yoy":  7.47,
+                                          "gross_margin":  23.36,
+                                          "net_margin":  11.07,
+                                          "debt_ratio":  42.19,
+                                          "eps":  1.81,
+                                          "bvps":  10.92,
+                                          "op_margin":  11.07
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  15.34,
+                                          "net_profit":  3490000000.0,
+                                          "revenue":  31005000000.0,
+                                          "np_yoy":  -1.38,
+                                          "rev_yoy":  9.5,
+                                          "gross_margin":  23.18,
+                                          "net_margin":  13.63,
+                                          "debt_ratio":  51.06,
+                                          "eps":  1.575,
+                                          "bvps":  10.65,
+                                          "op_margin":  13.63
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  8.56,
+                                          "net_profit":  1904000000.0,
+                                          "revenue":  20428000000.0,
+                                          "np_yoy":  -16.62,
+                                          "rev_yoy":  12.12,
+                                          "gross_margin":  19.94,
+                                          "net_margin":  11.02,
+                                          "debt_ratio":  53.78,
+                                          "eps":  0.86,
+                                          "bvps":  9.94,
+                                          "op_margin":  11.02
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  3.21,
+                                          "net_profit":  708000000.0,
+                                          "revenue":  9632000000.0,
+                                          "np_yoy":  -35.05,
+                                          "rev_yoy":  17.13,
+                                          "gross_margin":  14.93,
+                                          "net_margin":  8.14,
+                                          "debt_ratio":  49.45,
+                                          "eps":  0.321,
+                                          "bvps":  9.99,
+                                          "op_margin":  8.14
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  20.77,
+                                          "net_profit":  4307000000.0,
+                                          "revenue":  38373000000.0,
+                                          "np_yoy":  -27.07,
+                                          "rev_yoy":  1.99,
+                                          "gross_margin":  21.23,
+                                          "net_margin":  12.5,
+                                          "debt_ratio":  48.57,
+                                          "eps":  1.93,
+                                          "bvps":  9.64,
+                                          "op_margin":  12.5
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  17.14,
+                                          "net_profit":  3538000000.0000005,
+                                          "revenue":  28314000000.0,
+                                          "np_yoy":  -13.75,
+                                          "rev_yoy":  -1.1,
+                                          "gross_margin":  24.54,
+                                          "net_margin":  14.42,
+                                          "debt_ratio":  53.38,
+                                          "eps":  1.578,
+                                          "bvps":  9.62,
+                                          "op_margin":  14.42
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  11.19,
+                                          "net_profit":  2284000000.0,
+                                          "revenue":  18221000000.0,
+                                          "np_yoy":  -16.62,
+                                          "rev_yoy":  -4.65,
+                                          "gross_margin":  24.51,
+                                          "net_margin":  14.08,
+                                          "debt_ratio":  57.7,
+                                          "eps":  1.019,
+                                          "bvps":  9.06,
+                                          "op_margin":  14.08
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  5.35,
+                                          "net_profit":  1091000000.0,
+                                          "revenue":  8223000000.0,
+                                          "np_yoy":  -29.47,
+                                          "rev_yoy":  -13.57,
+                                          "gross_margin":  23.3,
+                                          "net_margin":  14.22,
+                                          "debt_ratio":  57.69,
+                                          "eps":  0.487,
+                                          "bvps":  9.32,
+                                          "op_margin":  14.22
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  33.61,
+                                          "net_profit":  5905000000.0,
+                                          "revenue":  37625000000.0,
+                                          "np_yoy":  -22.07,
+                                          "rev_yoy":  -11.89,
+                                          "gross_margin":  26.36,
+                                          "net_margin":  17.88,
+                                          "debt_ratio":  57.95,
+                                          "eps":  2.65,
+                                          "bvps":  8.81,
+                                          "op_margin":  17.88
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  24.22,
+                                          "net_profit":  4103000000.0,
+                                          "revenue":  28629000000.000004,
+                                          "np_yoy":  -29.94,
+                                          "rev_yoy":  -10.91,
+                                          "gross_margin":  27.25,
+                                          "net_margin":  16.71,
+                                          "debt_ratio":  63.12,
+                                          "eps":  1.83,
+                                          "bvps":  7.93,
+                                          "op_margin":  16.71
+                                      }
+                                  ],
+                   "structural":  true,
+                   "max_position":  14.6,
+                   "growth_signals":  [
+                                          "营收/净利双正增长",
+                                          "毛利率改善(结构向好)"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值中性(46%分位)，周期处于中段",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率显著上升，盈利周期向上",
+                                      "verdict":  "上行周期，基本面与盈利双改善"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新产品 / 新市场 / 新周期",
+                                       "detail":  "净利增速(151.1%)远超营收增速(21.4%)，且毛利率上升，疑似新产品放量驱动；营收增速从7.5%加速至21.4%，市场空间可能在扩张；净利增速从-7.0%转正至151.1%，盈利周期拐点",
+                                       "sub_types":  [
+                                                         "新产品",
+                                                         "新市场",
+                                                         "新周期"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  18.4,
+                                  "quality":  "硬核ROE",
+                                  "margin":  24.5,
+                                  "leverage":  1.73,
+                                  "turnover":  0.43,
+                                  "verdict":  "ROE 18.4%由定价权(净利率24.5%)驱动，负债率仅42.3%，属于高质量内生增长"
+                              },
+                   "thesis":  {
+                                  "status":  "证明中",
+                                  "detail":  "近期季报持续验证投资逻辑：毛利率环比上升",
+                                  "trend":  "confirming",
+                                  "confirm":  3,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "同步",
+                                 "interp":  "狗(价格)与人(价值)基本同步，估值合理",
+                                 "pe_percentile":  45.6,
+                                 "short_dev_pct":  0.8,
+                                 "off_high_pct":  -31.07
+                             },
+                   "risk":  {
+                                "stop_loss":  24.12,
+                                "max_position":  14.6,
+                                "pe_percentile":  45.6,
+                                "rules":  [
+                                              "仓位上限14.6%，可一次性建仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价26.22买入，跌破24.12止损观察(跌幅8%)"
+                                          ]
+                            }
+               },
+    "600546":  {
+                   "code":  "600546",
+                   "market":  "A",
+                   "name":  "山煤国际",
+                   "signal":  "持有偏多",
+                   "advice":  "评分中性偏多，持有为主，回调可关注",
+                   "score_total":  5.6,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  6.2,
+                                  "3d":  6.0,
+                                  "5m":  5.4,
+                                  "3t":  5.1,
+                                  "d1":  3.9,
+                                  "d2":  10.0,
+                                  "d3":  3.7,
+                                  "m1":  6.8,
+                                  "m2":  6.4,
+                                  "m3":  4.9,
+                                  "m4":  5.3,
+                                  "m5":  3.5,
+                                  "t1":  4.0,
+                                  "t2":  7.5,
+                                  "t3":  3.8
+                              },
+                   "hist":  {
+                                "price":  13.12,
+                                "change_pct":  0.92,
+                                "date":  "2026-09-30",
+                                "ma20":  13.3,
+                                "ma60":  12.98,
+                                "high_52w":  15.27,
+                                "low_52w":  9.79,
+                                "off_high_pct":  -14.08,
+                                "mom_1m":  -7.99,
+                                "mom_1y":  31.73,
+                                "pe_ttm":  17.1,
+                                "pb":  1.5,
+                                "pe_pct_3y":  76.5,
+                                "pb_pct_3y":  53.1,
+                                "mcap":  26009824556.8,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  6.06,
+                                          "net_profit":  1010000000.0,
+                                          "revenue":  10355000000.0,
+                                          "np_yoy":  54.13,
+                                          "rev_yoy":  21.63,
+                                          "gross_margin":  41.97,
+                                          "net_margin":  13.88,
+                                          "debt_ratio":  49.2,
+                                          "eps":  0.51,
+                                          "bvps":  8.74,
+                                          "op_margin":  13.88
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  2.62,
+                                          "net_profit":  429000000.0,
+                                          "revenue":  4968000000.0,
+                                          "np_yoy":  68.1,
+                                          "rev_yoy":  30.02,
+                                          "gross_margin":  38.84,
+                                          "net_margin":  12.44,
+                                          "debt_ratio":  49.65,
+                                          "eps":  0.22,
+                                          "bvps":  8.43,
+                                          "op_margin":  12.44
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  7.17,
+                                          "net_profit":  1166000000.0,
+                                          "revenue":  20472000000.0,
+                                          "np_yoy":  -48.58,
+                                          "rev_yoy":  -30.75,
+                                          "gross_margin":  35.61,
+                                          "net_margin":  8.25,
+                                          "debt_ratio":  51.21,
+                                          "eps":  0.59,
+                                          "bvps":  8.15,
+                                          "op_margin":  8.25
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  6.35,
+                                          "net_profit":  1046000000.0000001,
+                                          "revenue":  14240000000.0,
+                                          "np_yoy":  -49.74,
+                                          "rev_yoy":  -35.17,
+                                          "gross_margin":  37.37,
+                                          "net_margin":  11.18,
+                                          "debt_ratio":  49.71,
+                                          "eps":  0.53,
+                                          "bvps":  8.26,
+                                          "op_margin":  11.18
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  3.92,
+                                          "net_profit":  655000000.0,
+                                          "revenue":  8514000000.0,
+                                          "np_yoy":  -49.25,
+                                          "rev_yoy":  -39.44,
+                                          "gross_margin":  35.73,
+                                          "net_margin":  10.85,
+                                          "debt_ratio":  51.95,
+                                          "eps":  0.33,
+                                          "bvps":  8.04,
+                                          "op_margin":  10.85
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  1.53,
+                                          "net_profit":  254999999.99999997,
+                                          "revenue":  3821000000.0,
+                                          "np_yoy":  -56.29,
+                                          "rev_yoy":  -39.89,
+                                          "gross_margin":  39.04,
+                                          "net_margin":  11.39,
+                                          "debt_ratio":  50.86,
+                                          "eps":  0.13,
+                                          "bvps":  8.49,
+                                          "op_margin":  11.39
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  14.12,
+                                          "net_profit":  2268000000.0,
+                                          "revenue":  29561000000.0,
+                                          "np_yoy":  -46.75,
+                                          "rev_yoy":  -20.9,
+                                          "gross_margin":  32.31,
+                                          "net_margin":  10.68,
+                                          "debt_ratio":  50.52,
+                                          "eps":  1.14,
+                                          "bvps":  8.32,
+                                          "op_margin":  10.68
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  12.89,
+                                          "net_profit":  2082000000.0,
+                                          "revenue":  21965000000.0,
+                                          "np_yoy":  -47.91,
+                                          "rev_yoy":  -23.99,
+                                          "gross_margin":  34.67,
+                                          "net_margin":  13.67,
+                                          "debt_ratio":  53.24,
+                                          "eps":  1.05,
+                                          "bvps":  8.39,
+                                          "op_margin":  13.67
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  8.01,
+                                          "net_profit":  1291000000.0,
+                                          "revenue":  14057000000.0,
+                                          "np_yoy":  -58.11,
+                                          "rev_yoy":  -32.01,
+                                          "gross_margin":  33.92,
+                                          "net_margin":  12.64,
+                                          "debt_ratio":  51.57,
+                                          "eps":  0.65,
+                                          "bvps":  7.97,
+                                          "op_margin":  12.64
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  3.65,
+                                          "net_profit":  583000000.0,
+                                          "revenue":  6356000000.0,
+                                          "np_yoy":  -65.81,
+                                          "rev_yoy":  -40.31,
+                                          "gross_margin":  32.51,
+                                          "net_margin":  13.46,
+                                          "debt_ratio":  50.6,
+                                          "eps":  0.29,
+                                          "bvps":  8.23,
+                                          "op_margin":  13.46
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  28.51,
+                                          "net_profit":  4260000000.0,
+                                          "revenue":  37371000000.0,
+                                          "np_yoy":  -38.53,
+                                          "rev_yoy":  -19.45,
+                                          "gross_margin":  39.12,
+                                          "net_margin":  18.19,
+                                          "debt_ratio":  49.45,
+                                          "eps":  2.15,
+                                          "bvps":  7.91,
+                                          "op_margin":  18.19
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  26.09,
+                                          "net_profit":  3996000000.0,
+                                          "revenue":  28899000000.0,
+                                          "np_yoy":  -25.91,
+                                          "rev_yoy":  -18.9,
+                                          "gross_margin":  41.17,
+                                          "net_margin":  21.61,
+                                          "debt_ratio":  50.67,
+                                          "eps":  2.02,
+                                          "bvps":  7.88,
+                                          "op_margin":  21.61
+                                      }
+                                  ],
+                   "structural":  false,
+                   "max_position":  5.6,
+                   "growth_signals":  [
+                                          "营收/净利双正增长",
+                                          "毛利率改善(结构向好)"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值偏高(76%分位)，周期可能接近顶部",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率显著上升，盈利周期向上",
+                                      "verdict":  "周期高位，需警惕回调风险"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新产品 / 新市场 / 新周期",
+                                       "detail":  "净利增速(54.1%)远超营收增速(21.6%)，且毛利率上升，疑似新产品放量驱动；营收增速从-30.8%加速至21.6%，市场空间可能在扩张；营收增速从-30.8%转正至21.6%，周期拐点信号",
+                                       "sub_types":  [
+                                                         "新产品",
+                                                         "新市场",
+                                                         "新周期"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  6.1,
+                                  "quality":  "中等ROE",
+                                  "margin":  13.9,
+                                  "leverage":  1.97,
+                                  "turnover":  0.22,
+                                  "verdict":  "ROE 6.1%，净利率13.9%，负债率49.2%，质量一般"
+                              },
+                   "thesis":  {
+                                  "status":  "证明中",
+                                  "detail":  "近期季报持续验证投资逻辑：毛利率环比上升",
+                                  "trend":  "confirming",
+                                  "confirm":  3,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "超前",
+                                 "interp":  "狗(价格)跑在人(价值)前面，估值偏高，需警惕狗绳回拉",
+                                 "pe_percentile":  76.5,
+                                 "short_dev_pct":  1.1,
+                                 "off_high_pct":  -14.08
+                             },
+                   "risk":  {
+                                "stop_loss":  12.07,
+                                "max_position":  5.6,
+                                "pe_percentile":  76.5,
+                                "rules":  [
+                                              "仓位上限仅5.6%，评分或估值约束较大，轻仓试探",
+                                              "PE分位76%偏高，仓位需减半，回调至60%以下方可加仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价13.12买入，跌破12.07止损观察(跌幅8%)"
+                                          ]
+                            }
+               },
+    "600595":  {
+                   "code":  "600595",
+                   "market":  "A",
+                   "name":  "中孚实业",
+                   "signal":  "买入",
+                   "advice":  "综合评分较高，可分批建仓，仓位不超过建议上限",
+                   "score_total":  7.2,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  8.5,
+                                  "3d":  8.7,
+                                  "5m":  6.3,
+                                  "3t":  5.5,
+                                  "d1":  7.7,
+                                  "d2":  10.0,
+                                  "d3":  8.5,
+                                  "m1":  7.5,
+                                  "m2":  7.3,
+                                  "m3":  4.7,
+                                  "m4":  5.9,
+                                  "m5":  5.9,
+                                  "t1":  4.0,
+                                  "t2":  7.5,
+                                  "t3":  4.7
+                              },
+                   "hist":  {
+                                "price":  5.95,
+                                "change_pct":  -0.34,
+                                "date":  "2026-09-30",
+                                "ma20":  6.14,
+                                "ma60":  6.26,
+                                "high_52w":  10.45,
+                                "low_52w":  5.06,
+                                "off_high_pct":  -43.06,
+                                "mom_1m":  -4.65,
+                                "mom_1y":  17.59,
+                                "pe_ttm":  8.55,
+                                "pb":  1.3,
+                                "pe_pct_3y":  3.9,
+                                "pb_pct_3y":  67.2,
+                                "mcap":  23847035428.3,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  10.42,
+                                          "net_profit":  1880999999.9999998,
+                                          "revenue":  14258000000.000002,
+                                          "np_yoy":  165.84,
+                                          "rev_yoy":  34.85,
+                                          "gross_margin":  21.69,
+                                          "net_margin":  12.8,
+                                          "debt_ratio":  33.26,
+                                          "eps":  0.47,
+                                          "bvps":  4.57,
+                                          "op_margin":  12.8
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  4.69,
+                                          "net_profit":  821000000.0000001,
+                                          "revenue":  6640000000.000001,
+                                          "np_yoy":  256.61,
+                                          "rev_yoy":  32.23,
+                                          "gross_margin":  20.48,
+                                          "net_margin":  11.63,
+                                          "debt_ratio":  29.85,
+                                          "eps":  0.2,
+                                          "bvps":  4.48,
+                                          "op_margin":  11.63
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  10.05,
+                                          "net_profit":  1617000000.0000002,
+                                          "revenue":  23068000000.0,
+                                          "np_yoy":  129.83,
+                                          "rev_yoy":  1.35,
+                                          "gross_margin":  13.15,
+                                          "net_margin":  5.97,
+                                          "debt_ratio":  29.24,
+                                          "eps":  0.4,
+                                          "bvps":  4.27,
+                                          "op_margin":  5.97
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  7.51,
+                                          "net_profit":  1187000000.0,
+                                          "revenue":  16633000000.000002,
+                                          "np_yoy":  63.25,
+                                          "rev_yoy":  -0.6,
+                                          "gross_margin":  13.48,
+                                          "net_margin":  6.42,
+                                          "debt_ratio":  31.03,
+                                          "eps":  0.3,
+                                          "bvps":  4.16,
+                                          "op_margin":  6.42
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  4.58,
+                                          "net_profit":  707000000.0,
+                                          "revenue":  10574000000.0,
+                                          "np_yoy":  59.55,
+                                          "rev_yoy":  -3.82,
+                                          "gross_margin":  11.66,
+                                          "net_margin":  5.93,
+                                          "debt_ratio":  31.62,
+                                          "eps":  0.18,
+                                          "bvps":  4.04,
+                                          "op_margin":  5.93
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  1.56,
+                                          "net_profit":  229999999.99999997,
+                                          "revenue":  5021000000.0,
+                                          "np_yoy":  426.79,
+                                          "rev_yoy":  -3.1,
+                                          "gross_margin":  8.56,
+                                          "net_margin":  3.74,
+                                          "debt_ratio":  33.36,
+                                          "eps":  0.06,
+                                          "bvps":  3.92,
+                                          "op_margin":  3.74
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  4.99,
+                                          "net_profit":  704000000.0,
+                                          "revenue":  22761000000.0,
+                                          "np_yoy":  -39.3,
+                                          "rev_yoy":  21.12,
+                                          "gross_margin":  9.7,
+                                          "net_margin":  3.29,
+                                          "debt_ratio":  33.07,
+                                          "eps":  0.18,
+                                          "bvps":  3.65,
+                                          "op_margin":  3.29
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  5.16,
+                                          "net_profit":  727000000.0,
+                                          "revenue":  16733000000.000002,
+                                          "np_yoy":  -8.37,
+                                          "rev_yoy":  22.65,
+                                          "gross_margin":  11.05,
+                                          "net_margin":  4.79,
+                                          "debt_ratio":  34.58,
+                                          "eps":  0.18,
+                                          "bvps":  3.62,
+                                          "op_margin":  4.79
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  3.19,
+                                          "net_profit":  443000000.0,
+                                          "revenue":  10994000000.0,
+                                          "np_yoy":  7.11,
+                                          "rev_yoy":  26.6,
+                                          "gross_margin":  10.26,
+                                          "net_margin":  4.34,
+                                          "debt_ratio":  35.19,
+                                          "eps":  0.11,
+                                          "bvps":  3.53,
+                                          "op_margin":  4.34
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  0.32,
+                                          "net_profit":  43725100.0,
+                                          "revenue":  5182000000.0,
+                                          "np_yoy":  -78.07,
+                                          "rev_yoy":  28.19,
+                                          "gross_margin":  5.87,
+                                          "net_margin":  0.75,
+                                          "debt_ratio":  35.11,
+                                          "eps":  0.01,
+                                          "bvps":  3.43,
+                                          "op_margin":  0.75
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  8.98,
+                                          "net_profit":  1159000000.0,
+                                          "revenue":  18793000000.0,
+                                          "np_yoy":  10.4,
+                                          "rev_yoy":  7.29,
+                                          "gross_margin":  15.71,
+                                          "net_margin":  8.39,
+                                          "debt_ratio":  34.45,
+                                          "eps":  0.29,
+                                          "bvps":  3.41,
+                                          "op_margin":  8.39
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  6.27,
+                                          "net_profit":  794000000.0,
+                                          "revenue":  13643000000.0,
+                                          "np_yoy":  -31.2,
+                                          "rev_yoy":  -2.06,
+                                          "gross_margin":  16.4,
+                                          "net_margin":  7.87,
+                                          "debt_ratio":  32.77,
+                                          "eps":  0.2,
+                                          "bvps":  3.31,
+                                          "op_margin":  7.87
+                                      }
+                                  ],
+                   "structural":  true,
+                   "max_position":  14.4,
+                   "growth_signals":  [
+                                          "营收/净利双正增长",
+                                          "毛利率改善(结构向好)"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值处于近3年极低位(4%分位)，周期大概率在底部区域",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率显著上升，盈利周期向上",
+                                      "verdict":  "周期底部 + 基本面向上 = 周期拐点机会"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新产品 / 新市场",
+                                       "detail":  "净利增速(165.8%)远超营收增速(34.9%)，且毛利率上升，疑似新产品放量驱动；营收增速从1.4%加速至34.9%，市场空间可能在扩张",
+                                       "sub_types":  [
+                                                         "新产品",
+                                                         "新市场"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  10.4,
+                                  "quality":  "优良ROE",
+                                  "margin":  12.8,
+                                  "leverage":  1.5,
+                                  "turnover":  0.54,
+                                  "verdict":  "ROE 10.4%以盈利能力为主驱动(净利率12.8%)，杠杆可控(负债率33.3%)"
+                              },
+                   "thesis":  {
+                                  "status":  "证明中",
+                                  "detail":  "近期季报持续验证投资逻辑：营收增速加速(32.2%→34.9%)；毛利率环比上升",
+                                  "trend":  "confirming",
+                                  "confirm":  4,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "极度滞后",
+                                 "interp":  "狗(价格)远远落后于人(价值)，估值处于近3年底部，一旦人开始跑，狗会猛追",
+                                 "pe_percentile":  3.9,
+                                 "short_dev_pct":  -5.0,
+                                 "off_high_pct":  -43.06
+                             },
+                   "risk":  {
+                                "stop_loss":  5.47,
+                                "max_position":  14.4,
+                                "pe_percentile":  3.9,
+                                "rules":  [
+                                              "仓位上限14.4%，可一次性建仓",
+                                              "PE分位4%低位，安全边际充足，可正常建仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价5.95买入，跌破5.47止损观察(跌幅8%)"
+                                          ]
+                            }
+               },
+    "001286":  {
+                   "code":  "001286",
+                   "market":  "A",
+                   "name":  "陕西能源",
+                   "signal":  "持有偏多",
+                   "advice":  "评分中性偏多，持有为主，回调可关注",
+                   "score_total":  5.1,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  6.7,
+                                  "3d":  4.4,
+                                  "5m":  5.3,
+                                  "3t":  4.2,
+                                  "d1":  0.5,
+                                  "d2":  5.9,
+                                  "d3":  8.5,
+                                  "m1":  5.7,
+                                  "m2":  5.6,
+                                  "m3":  5.7,
+                                  "m4":  5.8,
+                                  "m5":  3.5,
+                                  "t1":  4.0,
+                                  "t2":  5.1,
+                                  "t3":  3.6
+                              },
+                   "hist":  {
+                                "price":  9.45,
+                                "change_pct":  0.32,
+                                "date":  "2026-09-30",
+                                "ma20":  9.6,
+                                "ma60":  10.04,
+                                "high_52w":  13.75,
+                                "low_52w":  8.94,
+                                "off_high_pct":  -31.27,
+                                "mom_1m":  -1.25,
+                                "mom_1y":  5.35,
+                                "pe_ttm":  11.72,
+                                "pb":  1.34,
+                                "pe_pct_3y":  5.2,
+                                "pb_pct_3y":  13.1,
+                                "mcap":  35437500000.0,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  4.99,
+                                          "net_profit":  1348000000.0,
+                                          "revenue":  10709000000.0,
+                                          "np_yoy":  1.07,
+                                          "rev_yoy":  8.58,
+                                          "gross_margin":  37.69,
+                                          "net_margin":  20.93,
+                                          "debt_ratio":  55.46,
+                                          "eps":  0.36,
+                                          "bvps":  7.08,
+                                          "op_margin":  20.93
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  3.3,
+                                          "net_profit":  888000000.0000001,
+                                          "revenue":  5779000000.0,
+                                          "np_yoy":  26.3,
+                                          "rev_yoy":  11.1,
+                                          "gross_margin":  39.15,
+                                          "net_margin":  24.06,
+                                          "debt_ratio":  53.16,
+                                          "eps":  0.24,
+                                          "bvps":  7.33,
+                                          "op_margin":  24.06
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  11.82,
+                                          "net_profit":  3009000000.0,
+                                          "revenue":  22958000000.0,
+                                          "np_yoy":  0.03,
+                                          "rev_yoy":  -0.86,
+                                          "gross_margin":  36.78,
+                                          "net_margin":  20.48,
+                                          "debt_ratio":  54.53,
+                                          "eps":  0.8,
+                                          "bvps":  7.05,
+                                          "op_margin":  20.48
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  9.47,
+                                          "net_profit":  2417000000.0,
+                                          "revenue":  16359000000.0,
+                                          "np_yoy":  -3.23,
+                                          "rev_yoy":  -2.83,
+                                          "gross_margin":  37.83,
+                                          "net_margin":  22.68,
+                                          "debt_ratio":  52.79,
+                                          "eps":  0.64,
+                                          "bvps":  6.98,
+                                          "op_margin":  22.68
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  5.27,
+                                          "net_profit":  1334000000.0,
+                                          "revenue":  9862000000.0,
+                                          "np_yoy":  -13.45,
+                                          "rev_yoy":  -6.74,
+                                          "gross_margin":  36.29,
+                                          "net_margin":  20.7,
+                                          "debt_ratio":  53.35,
+                                          "eps":  0.36,
+                                          "bvps":  6.66,
+                                          "op_margin":  20.7
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  2.8,
+                                          "net_profit":  703000000.0,
+                                          "revenue":  5202000000.0,
+                                          "np_yoy":  -28.78,
+                                          "rev_yoy":  -7.78,
+                                          "gross_margin":  34.34,
+                                          "net_margin":  20.39,
+                                          "debt_ratio":  52.58,
+                                          "eps":  0.19,
+                                          "bvps":  6.82,
+                                          "op_margin":  20.39
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  12.57,
+                                          "net_profit":  3009000000.0,
+                                          "revenue":  23156000000.0,
+                                          "np_yoy":  17.73,
+                                          "rev_yoy":  19.04,
+                                          "gross_margin":  34.97,
+                                          "net_margin":  20.13,
+                                          "debt_ratio":  53.13,
+                                          "eps":  0.8,
+                                          "bvps":  6.59,
+                                          "op_margin":  20.13
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  10.42,
+                                          "net_profit":  2497000000.0,
+                                          "revenue":  16835000000.0,
+                                          "np_yoy":  13.77,
+                                          "rev_yoy":  18.6,
+                                          "gross_margin":  37.92,
+                                          "net_margin":  22.82,
+                                          "debt_ratio":  53.16,
+                                          "eps":  0.67,
+                                          "bvps":  6.56,
+                                          "op_margin":  22.82
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  6.47,
+                                          "net_profit":  1541000000.0,
+                                          "revenue":  10575000000.0,
+                                          "np_yoy":  16.7,
+                                          "rev_yoy":  14.36,
+                                          "gross_margin":  38.66,
+                                          "net_margin":  22.48,
+                                          "debt_ratio":  54.53,
+                                          "eps":  0.41,
+                                          "bvps":  6.28,
+                                          "op_margin":  22.48
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  4.16,
+                                          "net_profit":  986999999.9999999,
+                                          "revenue":  5640000000.0,
+                                          "np_yoy":  15.3,
+                                          "rev_yoy":  10.39,
+                                          "gross_margin":  40.86,
+                                          "net_margin":  26.28,
+                                          "debt_ratio":  53.18,
+                                          "eps":  0.26,
+                                          "bvps":  6.48,
+                                          "op_margin":  26.28
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  12.69,
+                                          "net_profit":  2556000000.0,
+                                          "revenue":  19453000000.0,
+                                          "np_yoy":  3.3,
+                                          "rev_yoy":  -4.1,
+                                          "gross_margin":  40.04,
+                                          "net_margin":  20.86,
+                                          "debt_ratio":  53.07,
+                                          "eps":  0.73,
+                                          "bvps":  6.19,
+                                          "op_margin":  20.86
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  11.28,
+                                          "net_profit":  2195000000.0,
+                                          "revenue":  14194999999.999998,
+                                          "np_yoy":  8.86,
+                                          "rev_yoy":  -4.82,
+                                          "gross_margin":  42.87,
+                                          "net_margin":  24.09,
+                                          "debt_ratio":  52.91,
+                                          "eps":  0.64,
+                                          "bvps":  6.14,
+                                          "op_margin":  24.09
+                                      }
+                                  ],
+                   "structural":  false,
+                   "max_position":  10.2,
+                   "growth_signals":  [
+                                          "营收/净利双正增长"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值处于近3年极低位(5%分位)，周期大概率在底部区域",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率小幅下降，盈利周期平稳",
+                                      "verdict":  "周期底部 + 基本面向上 = 周期拐点机会"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新份额 / 新周期 / 逆周期抢份额",
+                                       "detail":  "营收增长8.6%且毛利率稳定(±3%)，可能在逆周期抢占市场份额；营收增速从-0.9%转正至8.6%，周期拐点信号；行业增速放缓(-0.9%)但公司逆势增长(8.6%)，毛利率小幅让利(37.9%→37.7%)，疑似以价换量抢夺份额",
+                                       "sub_types":  [
+                                                         "新份额",
+                                                         "新周期",
+                                                         "逆周期抢份额"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  5.0,
+                                  "quality":  "低效ROE",
+                                  "margin":  20.9,
+                                  "leverage":  2.25,
+                                  "turnover":  0.11,
+                                  "verdict":  "ROE仅5.0%，创造价值能力弱，净利率20.9%偏低"
+                              },
+                   "thesis":  {
+                                  "status":  "偏正面",
+                                  "detail":  "数据有限",
+                                  "trend":  "leaning_confirm",
+                                  "confirm":  2,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "极度滞后",
+                                 "interp":  "狗(价格)远远落后于人(价值)，估值处于近3年底部，一旦人开始跑，狗会猛追",
+                                 "pe_percentile":  5.2,
+                                 "short_dev_pct":  -5.9,
+                                 "off_high_pct":  -31.27
+                             },
+                   "risk":  {
+                                "stop_loss":  8.69,
+                                "max_position":  10.2,
+                                "pe_percentile":  5.2,
+                                "rules":  [
+                                              "仓位上限10.2%，可一次性建仓",
+                                              "PE分位5%低位，安全边际充足，可正常建仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价9.45买入，跌破8.69止损观察(跌幅8%)"
+                                          ]
+                            }
+               },
+    "06855":  {
+                  "code":  "06855",
+                  "market":  "HK",
+                  "name":  "亚盛医药",
+                  "signal":  "卖出",
+                  "advice":  "评分偏低，建议减仓或回避",
+                  "score_total":  2.9,
+                  "confidence":  100,
+                  "scores":  {
+                                 "3c":  4.1,
+                                 "3d":  3.3,
+                                 "5m":  2.1,
+                                 "3t":  2.9,
+                                 "d1":  4.0,
+                                 "d2":  1.0,
+                                 "d3":  5.4,
+                                 "m1":  2.5,
+                                 "m2":  2.2,
+                                 "m3":  2.0,
+                                 "m4":  1.4,
+                                 "m5":  2.4,
+                                 "t1":  5.0,
+                                 "t2":  2.5,
+                                 "t3":  2.0
+                             },
+                  "hist":  {
+                               "pe_ttm":  null,
+                               "pb":  17.93,
+                               "pe_pct_3y":  null,
+                               "pb_pct_3y":  43.3,
+                               "mom_1m":  null,
+                               "mom_1y":  null,
+                               "name":  "亚盛医药"
+                           },
+                  "financials":  [
+                                     {
+                                         "period":  "2025-12-31",
+                                         "roe":  -156.455393741628,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -206.5288222715,
+                                         "rev_yoy":  -41.4551572936,
+                                         "gross_margin":  91.475998049188,
+                                         "net_margin":  -216.5029958894,
+                                         "debt_ratio":  66.3381839182,
+                                         "eps":  -3.328949339488,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2024-12-31",
+                                         "roe":  -249.796217626636,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  56.1995685134,
+                                         "rev_yoy":  341.7660732305,
+                                         "gross_margin":  97.034110029062,
+                                         "net_margin":  -41.3684800897,
+                                         "debt_ratio":  89.5270474175,
+                                         "eps":  -1.286170224453,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2023-12-31",
+                                         "roe":  -394.664819058786,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -4.8376757229,
+                                         "rev_yoy":  5.8523396484,
+                                         "gross_margin":  86.240900245063,
+                                         "net_margin":  -417.0174426986,
+                                         "debt_ratio":  97.1751640642,
+                                         "eps":  -3.189689774407,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2022-12-31",
+                                         "roe":  -107.451221404471,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -12.8446980154,
+                                         "rev_yoy":  651.3830168398,
+                                         "gross_margin":  89.510326115464,
+                                         "net_margin":  -421.0194028926,
+                                         "debt_ratio":  85.5611196282,
+                                         "eps":  -3.329452408772,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2021-12-31",
+                                         "roe":  -75.183990452387,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -15.468871291,
+                                         "rev_yoy":  124.1767068273,
+                                         "gross_margin":  88.075958437836,
+                                         "net_margin":  -2803.3823002508,
+                                         "debt_ratio":  58.0029999388,
+                                         "eps":  -2.976347289634,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2020-12-31",
+                                         "roe":  -78.015953061892,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  54.2378879378,
+                                         "rev_yoy":  -14.2148418659,
+                                         "gross_margin":  84.208835341366,
+                                         "net_margin":  -5442.6184738956,
+                                         "debt_ratio":  51.091743167,
+                                         "eps":  -2.997698998834,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2019-12-31",
+                                         "roe":  2445.2180231358,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -328.8108842277,
+                                         "rev_yoy":  113.2069928015,
+                                         "gross_margin":  85.557775787225,
+                                         "net_margin":  -10202.6734651692,
+                                         "debt_ratio":  26.104725945,
+                                         "eps":  -7.088088840931,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2018-12-31",
+                                         "roe":  60.393348606799,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -191.2702296775,
+                                         "rev_yoy":  7.5695322377,
+                                         "gross_margin":  null,
+                                         "net_margin":  -5071.1914205964,
+                                         "debt_ratio":  182.7252084976,
+                                         "eps":  0.000234254259,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     },
+                                     {
+                                         "period":  "2017-12-31",
+                                         "roe":  161.897600656231,
+                                         "net_profit":  null,
+                                         "revenue":  null,
+                                         "np_yoy":  -9.8118491455,
+                                         "rev_yoy":  -17.464458067,
+                                         "gross_margin":  null,
+                                         "net_margin":  -1871.3653603034,
+                                         "debt_ratio":  122.8269706472,
+                                         "eps":  0.00058760363,
+                                         "bvps":  null,
+                                         "op_margin":  null
+                                     }
+                                 ],
+                  "structural":  false,
+                  "max_position":  5.8,
+                  "growth_signals":  [
+                                         "毛利率改善(结构向好)"
+                                     ],
+                  "cycle_qual":  {
+                                     "position":  "估值中性(43%分位)，周期处于中段",
+                                     "growth":  "营收增速由正转负，基本面可能进入下行周期",
+                                     "margin":  "毛利率显著上升，盈利周期向上",
+                                     "verdict":  "周期位置中性，需结合更多信号判断"
+                                 },
+                  "change_qual":  {
+                                      "type":  "基本面恶化",
+                                      "detail":  "营收增速-41.5%，基本面可能恶化，需警惕",
+                                      "sub_types":  [
+
+                                                    ]
+                                  },
+                  "dupont":  {
+                                 "roe":  -156.5,
+                                 "quality":  "低效ROE",
+                                 "margin":  -216.5,
+                                 "leverage":  2.97,
+                                 "turnover":  null,
+                                 "verdict":  "ROE仅-156.5%，创造价值能力弱，净利率-216.5%偏低"
+                             },
+                  "thesis":  {
+                                 "status":  "证伪中",
+                                 "detail":  "近期季报出现预警信号，投资逻辑可能被证伪：净利增速从56.2%恶化至-206.5%；营收增速放缓(341.8%→-41.5%)；毛利率环比下降(97.0%→91.5%)",
+                                 "trend":  "falsifying",
+                                 "confirm":  0,
+                                 "falsify":  4
+                             },
+                  "leash":  {
+                                "deviation":  "同步",
+                                "interp":  "狗(价格)与人(价值)基本同步，估值合理",
+                                "pe_percentile":  43.3,
+                                "short_dev_pct":  null,
+                                "off_high_pct":  null
+                            },
+                  "risk":  {
+                               "stop_loss":  null,
+                               "max_position":  5.8,
+                               "pe_percentile":  43.3,
+                               "rules":  [
+                                             "仓位上限仅5.8%，评分或估值约束较大，轻仓试探",
+                                             "组合保持20-40只分散，单票不超过总仓位20%"
+                                         ]
+                           }
+              },
+    "603198":  {
+                   "code":  "603198",
+                   "market":  "A",
+                   "name":  "迎驾贡酒",
+                   "signal":  "持有偏多",
+                   "advice":  "评分中性偏多，持有为主，回调可关注",
+                   "score_total":  6.1,
+                   "confidence":  100,
+                   "scores":  {
+                                  "3c":  7.2,
+                                  "3d":  5.3,
+                                  "5m":  6.7,
+                                  "3t":  4.7,
+                                  "d1":  4.0,
+                                  "d2":  6.0,
+                                  "d3":  6.3,
+                                  "m1":  5.7,
+                                  "m2":  5.5,
+                                  "m3":  7.4,
+                                  "m4":  8.7,
+                                  "m5":  6.4,
+                                  "t1":  4.0,
+                                  "t2":  5.2,
+                                  "t3":  4.7
+                              },
+                   "hist":  {
+                                "price":  38.72,
+                                "change_pct":  3.39,
+                                "date":  "2026-09-30",
+                                "ma20":  38.8,
+                                "ma60":  37.82,
+                                "high_52w":  43.88,
+                                "low_52w":  29.55,
+                                "off_high_pct":  -11.76,
+                                "mom_1m":  -3.85,
+                                "mom_1y":  -5.56,
+                                "pe_ttm":  15.36,
+                                "pb":  2.92,
+                                "pe_pct_3y":  38.1,
+                                "pb_pct_3y":  17.7,
+                                "mcap":  30976000000.0,
+                                "name":  null
+                            },
+                   "financials":  [
+                                      {
+                                          "period":  "2026-06-30",
+                                          "roe":  10.74,
+                                          "net_profit":  1162000000.0,
+                                          "revenue":  3415999999.9999995,
+                                          "np_yoy":  2.79,
+                                          "rev_yoy":  8.08,
+                                          "gross_margin":  74.06,
+                                          "net_margin":  34.09,
+                                          "debt_ratio":  20.42,
+                                          "eps":  1.45,
+                                          "bvps":  13.25,
+                                          "op_margin":  34.09
+                                      },
+                                      {
+                                          "period":  "2026-03-31",
+                                          "roe":  7.55,
+                                          "net_profit":  835000000.0,
+                                          "revenue":  2230000000.0,
+                                          "np_yoy":  0.73,
+                                          "rev_yoy":  8.91,
+                                          "gross_margin":  75.6,
+                                          "net_margin":  37.56,
+                                          "debt_ratio":  21.41,
+                                          "eps":  1.04,
+                                          "bvps":  14.34,
+                                          "op_margin":  37.56
+                                      },
+                                      {
+                                          "period":  "2025-12-31",
+                                          "roe":  19.4,
+                                          "net_profit":  1986000000.0,
+                                          "revenue":  6019000000.0,
+                                          "np_yoy":  -23.31,
+                                          "rev_yoy":  -18.04,
+                                          "gross_margin":  72.54,
+                                          "net_margin":  33.05,
+                                          "debt_ratio":  22.84,
+                                          "eps":  2.48,
+                                          "bvps":  13.29,
+                                          "op_margin":  33.05
+                                      },
+                                      {
+                                          "period":  "2025-09-30",
+                                          "roe":  14.82,
+                                          "net_profit":  1511000000.0,
+                                          "revenue":  4516000000.0,
+                                          "np_yoy":  -24.67,
+                                          "rev_yoy":  -18.09,
+                                          "gross_margin":  72.58,
+                                          "net_margin":  33.54,
+                                          "debt_ratio":  22.17,
+                                          "eps":  1.89,
+                                          "bvps":  12.7,
+                                          "op_margin":  33.54
+                                      },
+                                      {
+                                          "period":  "2025-06-30",
+                                          "roe":  12.27,
+                                          "net_profit":  1130000000.0,
+                                          "revenue":  3160000000.0,
+                                          "np_yoy":  -18.19,
+                                          "rev_yoy":  -16.89,
+                                          "gross_margin":  73.62,
+                                          "net_margin":  35.87,
+                                          "debt_ratio":  22.09,
+                                          "eps":  1.41,
+                                          "bvps":  12.22,
+                                          "op_margin":  35.87
+                                      },
+                                      {
+                                          "period":  "2025-03-31",
+                                          "roe":  8.51,
+                                          "net_profit":  828999999.9999999,
+                                          "revenue":  2047000000.0,
+                                          "np_yoy":  -9.54,
+                                          "rev_yoy":  -12.35,
+                                          "gross_margin":  76.49,
+                                          "net_margin":  40.63,
+                                          "debt_ratio":  22.66,
+                                          "eps":  1.04,
+                                          "bvps":  13.34,
+                                          "op_margin":  40.63
+                                      },
+                                      {
+                                          "period":  "2024-12-31",
+                                          "roe":  27.91,
+                                          "net_profit":  2589000000.0,
+                                          "revenue":  7344000000.0,
+                                          "np_yoy":  13.45,
+                                          "rev_yoy":  8.46,
+                                          "gross_margin":  73.94,
+                                          "net_margin":  35.33,
+                                          "debt_ratio":  26.27,
+                                          "eps":  3.24,
+                                          "bvps":  12.31,
+                                          "op_margin":  35.33
+                                      },
+                                      {
+                                          "period":  "2024-09-30",
+                                          "roe":  21.9,
+                                          "net_profit":  2005999999.9999998,
+                                          "revenue":  5513000000.0,
+                                          "np_yoy":  20.19,
+                                          "rev_yoy":  13.81,
+                                          "gross_margin":  74.28,
+                                          "net_margin":  36.48,
+                                          "debt_ratio":  22.96,
+                                          "eps":  2.51,
+                                          "bvps":  11.58,
+                                          "op_margin":  36.48
+                                      },
+                                      {
+                                          "period":  "2024-06-30",
+                                          "roe":  15.27,
+                                          "net_profit":  1382000000.0,
+                                          "revenue":  3803000000.0,
+                                          "np_yoy":  29.86,
+                                          "rev_yoy":  20.44,
+                                          "gross_margin":  73.57,
+                                          "net_margin":  36.53,
+                                          "debt_ratio":  23.0,
+                                          "eps":  1.73,
+                                          "bvps":  10.84,
+                                          "op_margin":  36.53
+                                      },
+                                      {
+                                          "period":  "2024-03-31",
+                                          "roe":  10.38,
+                                          "net_profit":  916000000.0,
+                                          "revenue":  2336000000.0,
+                                          "np_yoy":  30.86,
+                                          "rev_yoy":  21.33,
+                                          "gross_margin":  75.09,
+                                          "net_margin":  39.41,
+                                          "debt_ratio":  24.32,
+                                          "eps":  1.14,
+                                          "bvps":  11.56,
+                                          "op_margin":  39.41
+                                      },
+                                      {
+                                          "period":  "2023-12-31",
+                                          "roe":  29.97,
+                                          "net_profit":  2282000000.0,
+                                          "revenue":  6770999999.999999,
+                                          "np_yoy":  33.85,
+                                          "rev_yoy":  22.07,
+                                          "gross_margin":  71.37,
+                                          "net_margin":  34.12,
+                                          "debt_ratio":  28.33,
+                                          "eps":  2.85,
+                                          "bvps":  10.42,
+                                          "op_margin":  34.12
+                                      },
+                                      {
+                                          "period":  "2023-09-30",
+                                          "roe":  22.0,
+                                          "net_profit":  1669000000.0000002,
+                                          "revenue":  4844000000.0,
+                                          "np_yoy":  38.76,
+                                          "rev_yoy":  23.42,
+                                          "gross_margin":  71.64,
+                                          "net_margin":  34.55,
+                                          "debt_ratio":  25.58,
+                                          "eps":  2.09,
+                                          "bvps":  9.63,
+                                          "op_margin":  34.55
+                                      }
+                                  ],
+                   "structural":  true,
+                   "max_position":  12.2,
+                   "growth_signals":  [
+                                          "营收/净利双正增长"
+                                      ],
+                   "cycle_qual":  {
+                                      "position":  "估值偏低(38%分位)，周期处于底部至上行初期",
+                                      "growth":  "营收增速加速上行，基本面周期向上",
+                                      "margin":  "毛利率小幅下降，盈利周期平稳",
+                                      "verdict":  "周期位置中性，需结合更多信号判断"
+                                  },
+                   "change_qual":  {
+                                       "type":  "新份额 / 新周期 / 逆周期抢份额",
+                                       "detail":  "营收增长8.1%且毛利率稳定(±3%)，可能在逆周期抢占市场份额；营收增速从-18.0%转正至8.1%，周期拐点信号；行业增速放缓(-18.0%)但公司逆势增长(8.1%)，毛利率小幅让利(74.3%→74.1%)，疑似以价换量抢夺份额",
+                                       "sub_types":  [
+                                                         "新份额",
+                                                         "新周期",
+                                                         "逆周期抢份额"
+                                                     ]
+                                   },
+                   "dupont":  {
+                                  "roe":  10.7,
+                                  "quality":  "优良ROE",
+                                  "margin":  34.1,
+                                  "leverage":  1.26,
+                                  "turnover":  0.25,
+                                  "verdict":  "ROE 10.7%以盈利能力为主驱动(净利率34.1%)，杠杆可控(负债率20.4%)"
+                              },
+                   "thesis":  {
+                                  "status":  "证明中",
+                                  "detail":  "近期季报持续验证投资逻辑：净利增速从0.7%改善至2.8%",
+                                  "trend":  "confirming",
+                                  "confirm":  3,
+                                  "falsify":  0
+                              },
+                   "leash":  {
+                                 "deviation":  "滞后",
+                                 "interp":  "狗(价格)落后于人(价值)，估值偏低，安全边际较充足",
+                                 "pe_percentile":  38.1,
+                                 "short_dev_pct":  2.4,
+                                 "off_high_pct":  -11.76
+                             },
+                   "risk":  {
+                                "stop_loss":  35.62,
+                                "max_position":  12.2,
+                                "pe_percentile":  38.1,
+                                "rules":  [
+                                              "仓位上限12.2%，可一次性建仓",
+                                              "组合保持20-40只分散，单票不超过总仓位20%",
+                                              "若以现价38.72买入，跌破35.62止损观察(跌幅8%)"
+                                          ]
+                            }
                }
 }
 ;
@@ -6922,6 +10011,7 @@ function buildOverview() {
     </div>`;
   });
   $("#overview").innerHTML = html;
+  $("#stockCount").textContent = Object.keys(DEMO_DATA).length;
 }
 
 function selectStock(code) {
